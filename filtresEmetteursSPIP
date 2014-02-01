@@ -1,26 +1,32 @@
 Voici la liste des filtres REGEXP utilisé sur la liste [SPIP](http://listes.rezo.net/mailman/listinfo/spip) pour filtrer les mails entrants.
 
+C'est formaté pour Mailman.
 
+# Fishing
+
+^(.*)@paypal.(.*)$
+^(.*)paypal(.*)@(.*)$
+^billing@(.*)$
+^sales2@(.*)$
+
+
+# Spam
+
+^melissa.intelligent-business@(.*)$
+^postmaster@(.*)$
+^(.*)newsletter(.*)@(.*)$
+^(.*)@(.*)newsletter(.*)$
+^(.*)mailing(.*)@(.*)$
+^(.*)marketing(.*)@(.*)$
+^(.*)noreply(.*)@(.*)$
+^(.*)no-reply(.*)@(.*)$
+^(.*)no_reply(.*)@(.*)$
+^(.*)@rsqforex.net$
+^(.*)@netlogmail.com$
 ^(.*)@varunseducationalsociety.com$
-^(.*)@@search-lots-archiv.com$
+^(.*)@search-lots-archiv.com$
 ^(.*)@rheacollection.com$
 ^(.*)@rmk-karawang.com$
-^(.*).acesuppliers.com$
-^(.*).leadmailing.com$
-^(.*).multi-fax.net$
-^(.*).emv1.net$
-^(.*).emv1.com$
-^(.*).emv2.net$
-^(.*).emv2.com$
-^(.*).emv3.net$
-^(.*).emv3.com$
-^(.*).emv4.net$
-^(.*).emv4.com$
-^(.*).emv5.net$
-^(.*).emv5.com$
-^(.*).ems7.net$
-^(.*).subscribermail.com$
-^(.*).euro.tm$
 ^(.*)@aequest.com$
 ^(.*)@rotario.com$
 ^(.*)@immo-fox.com$
@@ -40,18 +46,19 @@ Voici la liste des filtres REGEXP utilisé sur la liste [SPIP](http://listes.rez
 ^(.*)@news-companeo.fr$
 ^(.*)@rediffmail.com$
 ^(.*)@sendnes.fr$
-^(.*)newsletter(.*)@(.*)$
-^(.*)@(.*)newsletter(.*)$
-^(.*)mailing(.*)@(.*)$
-^(.*)marketing(.*)@(.*)$
-^(.*)noreply(.*)@(.*)$
-^(.*)no-reply(.*)@(.*)$
-^(.*)no_reply(.*)@(.*)$
-^(.*)paypal(.*)@(.*)$
-^(.*)@paypal.(.*)$
-^(.*)@rsqforex.net$
-^(.*)@netlogmail.com$
-^melissa.intelligent-business@(.*)$
-^postmaster@(.*)$
-^billing@(.*)$
-^sales2@(.*)$
+^(.*).acesuppliers.com$
+^(.*).leadmailing.com$
+^(.*).multi-fax.net$
+^(.*).emv1.net$
+^(.*).emv1.com$
+^(.*).emv2.net$
+^(.*).emv2.com$
+^(.*).emv3.net$
+^(.*).emv3.com$
+^(.*).emv4.net$
+^(.*).emv4.com$
+^(.*).emv5.net$
+^(.*).emv5.com$
+^(.*).ems7.net$
+^(.*).subscribermail.com$
+^(.*).euro.tm$
