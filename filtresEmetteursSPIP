@@ -1,8 +1,7 @@
-Voici la liste des filtres REGEXP utilisé sur la liste [SPIP](http://listes.rezo.net/mailman/listinfo/spip) pour filtrer les mails entrants.
+# Voici la liste des filtres REGEXP utilisé sur la liste [SPIP](http://listes.rezo.net/mailman/listinfo/spip) pour filtrer les mails entrants.
+# C'est formaté pour Mailman.
 
-C'est formaté pour Mailman.
-
-# Fishing
+## Phishing
 
 ^(.*)@paypal.(.*)$
 ^(.*)paypal(.*)@(.*)$
@@ -10,7 +9,7 @@ C'est formaté pour Mailman.
 ^sales2@(.*)$
 
 
-# Spam
+## Spam
 
 ^melissa.intelligent-business@(.*)$
 ^postmaster@(.*)$
