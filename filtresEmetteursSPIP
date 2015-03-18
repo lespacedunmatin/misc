@@ -9,11 +9,11 @@
 ^sales2@(.*)$
 ^shop@(.*)$
 
-
 ## Spam
 
 ^melissa.intelligent-business@(.*)$
 ^postmaster@(.*)$
+^training@(.*)$
 ^(.*)newsletter(.*)@(.*)$
 ^(.*)@(.*)newsletter(.*)$
 ^(.*)mailing(.*)@(.*)$
